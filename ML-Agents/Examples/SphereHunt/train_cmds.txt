@@ -1,0 +1,34 @@
+cd C:\Users\franc\Documents\programming_projects\unity_course\unity_ml_agents\rl_unity_project\rl_unity_project\ML-Agents\Examples\SphereHunt
+
+name_config = sphere_hunt_imitation_config
+name_test = test_0_sphere_hunt_imitation
+ 
+conda activate ml_agents_env_3_9_13
+
+===========================================================
+
+REINFORCEMENT LEARNING
+
+## Train new model with parameters in config
+mlagents-learn config/{name_config}.yaml --run-id=test_0_sphere_hunt
+
+## Resume training with old model
+mlagents-learn config/{name_config}.yaml --initialize-from={name_test} --run-id={new_name_test}
+
+## Override
+mlagents-learn config/{name_config}.yaml --force --initialize-from={name_test} --run-id={new_name_test}
+
+tensorboard --logdir results (didn't load anything though)
+
+============================================================
+
+IMITATION LEARNING
+
+## Train new model with parameters in config + imitation demo
+mlagents-learn config/{name_config}.yaml --run-id={name_test}
+
+mlagents-learn config/sphere_hunt_imitation_config.yaml --run-id=imitation_test_001
+mlagents-learn config/sphere_hunt_imitation_config.yaml --force --run-id=imitation_test_001
+
+
+mlagents-learn config/sphere_hunt_imitation_config.yaml --initialize-from=test_0_sphere_hunt_imitation --run-id=test_0_sphere_hunt_reinforcement

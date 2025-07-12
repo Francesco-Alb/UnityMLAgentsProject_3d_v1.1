@@ -1,0 +1,23 @@
+________________________________________
+Guideline for Setup
+1.	Create Environment:
+o	Build a Unity environment with a plane as the ground.
+o	Add walls to limit the playable area.
+2.	Add GameObjects:
+o	Agent: Add a GameObject with an Agent component. Attach the Agent script.
+o	Target: Add a sphere GameObject with a Rigidbody and the TargetLogic script.
+3.	Setup Tags:
+o	Tag the target as Target.
+o	Tag the walls as Wall.
+4.	Assign Materials:
+o	Create materials for win, lose, pressed button, and unpressed button states. Assign them in the Inspector.
+5.	Link Components:
+o	In the MoveToGoalAgent script, assign the references for the button and target.
+o	In the ButtonLogic and TargetLogic, set parameters like materials, spawn areas, etc.
+Attach the ButtonLogic script to the ButtonBase GameObject.
+Drag the child Button object into the buttonMeshRenderer field in the Inspector.
+6.	Train the Agent:
+o	Set up the ML-Agents Toolkit and define an action space (2 continuous actions for movement and 1 discrete action for pressing the button).
+o	Train the agent using the Unity ML-Agents trainer.
+________________________________________
+

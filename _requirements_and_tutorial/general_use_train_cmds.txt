@@ -1,0 +1,25 @@
+PATH
+cd C:\Users\franc\Documents\programming_projects\unity_course\unity_ml_agents\rl_unity_project\rl_unity_project\Assets\ML-Agents\Examples
+
+NECESSARY ENV
+conda activate ml_agents_env_3_9_13
+
+##Start Learning
+
+## Train new model with parameters in config
+mlagents-learn move_to_ball_config.yaml --run-id=MoveToGoal
+============================================================
+## Resume training with old model
+mlagents-learn move_to_ball_config.yaml --resume --run-id=MoveToGoal2 (MUST BE SAME ID)
+============================================================
+## Override old training
+mlagents-learn move_to_ball_config.yaml --force --run-id=MoveToGoal
+============================================================
+## Start new training/model with old model parameters
+mlagents-learn move_to_ball_config.yaml --initialize-from=MoveToGoal --run-id=MoveToGoal2 (MUST BE NEW ID)
+============================================================
+## Check AI progress with tensorboard
+tensorboard --logdir results
+============================================================
+## Train from build.exe
+mlagents-learn general_config\general_config.yaml --run-id=headless_001 --env=C:\Users\franc\OneDrive\Desktop\_temporary\move_to_goal\rl_unity_project.exe --time-scale=10 --num-envs=1 --quality-level=0 --width=256 --height=256

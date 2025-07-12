@@ -1,0 +1,65 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 6499956,
+                "file_path": "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-6499956.onnx",
+                "reward": 4.7234620166202195,
+                "creation_time": 1745663099.1074774,
+                "auxillary_file_paths": [
+                    "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-6499956.pt"
+                ]
+            },
+            {
+                "steps": 6999974,
+                "file_path": "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-6999974.onnx",
+                "reward": 4.800444410350913,
+                "creation_time": 1745665741.1927145,
+                "auxillary_file_paths": [
+                    "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-6999974.pt"
+                ]
+            },
+            {
+                "steps": 7499985,
+                "file_path": "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-7499985.onnx",
+                "reward": 4.795058379058377,
+                "creation_time": 1745668335.9706326,
+                "auxillary_file_paths": [
+                    "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-7499985.pt"
+                ]
+            },
+            {
+                "steps": 7999993,
+                "file_path": "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-7999993.onnx",
+                "reward": 4.808147834843855,
+                "creation_time": 1745670962.0225196,
+                "auxillary_file_paths": [
+                    "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-7999993.pt"
+                ]
+            },
+            {
+                "steps": 8000023,
+                "file_path": "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-8000023.onnx",
+                "reward": 4.80830475748967,
+                "creation_time": 1745670962.0586128,
+                "auxillary_file_paths": [
+                    "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-8000023.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8000023,
+            "file_path": "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal.onnx",
+            "reward": 4.80830475748967,
+            "creation_time": 1745670962.0586128,
+            "auxillary_file_paths": [
+                "results/movetogoal-envs_8-batch_128-buffer_32768-epochs_8-horizon_64/MoveToGoal/MoveToGoal-8000023.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.5.1+cu124"
+    }
+}

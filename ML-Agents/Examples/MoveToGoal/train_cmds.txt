@@ -1,0 +1,20 @@
+cd C:\Users\franc\Documents\programming_projects\unity_course\unity_ml_agents\rl_unity_project\rl_unity_project\ML-Agents\Examples\Basic1
+
+conda activate ml_agents_env_3_9_13
+
+===========================================================
+
+## Train new model with parameters in config
+mlagents-learn config/move_to_ball_config.yaml --run-id=test_movetogoal
+
+## Resume training with old model
+mlagents-learn config/move_to_ball_config.yaml --initialize-from=test_movetogoal --run-id=test_movetogoal2
+
+## Override
+mlagents-learn config/move_to_ball_config.yaml --force --initialize-from=test_movetogoal --run-id=test_movetogoal2
+
+tensorboard --logdir results (didn't load anything though)
+
+============================================================
+## Train new model with parameters in config + imitation demo
+mlagents-learn config/move_to_ball_imitation_config.yaml --run-id=movetogoal_imitation1

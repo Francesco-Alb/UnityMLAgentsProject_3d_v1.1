@@ -1,0 +1,65 @@
+{
+    "SphereHunt": {
+        "checkpoints": [
+            {
+                "steps": 18499883,
+                "file_path": "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-18499883.onnx",
+                "reward": 11.591590568073727,
+                "creation_time": 1748110603.0693574,
+                "auxillary_file_paths": [
+                    "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-18499883.pt"
+                ]
+            },
+            {
+                "steps": 18999971,
+                "file_path": "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-18999971.onnx",
+                "reward": 11.48376257419222,
+                "creation_time": 1748113641.84577,
+                "auxillary_file_paths": [
+                    "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-18999971.pt"
+                ]
+            },
+            {
+                "steps": 19499996,
+                "file_path": "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-19499996.onnx",
+                "reward": 11.581141084505962,
+                "creation_time": 1748116330.6933627,
+                "auxillary_file_paths": [
+                    "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-19499996.pt"
+                ]
+            },
+            {
+                "steps": 19999885,
+                "file_path": "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-19999885.onnx",
+                "reward": 11.577377573392724,
+                "creation_time": 1748119367.3309531,
+                "auxillary_file_paths": [
+                    "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-19999885.pt"
+                ]
+            },
+            {
+                "steps": 20000019,
+                "file_path": "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-20000019.onnx",
+                "reward": 11.578255732939478,
+                "creation_time": 1748119367.4072073,
+                "auxillary_file_paths": [
+                    "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-20000019.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20000019,
+            "file_path": "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt.onnx",
+            "reward": 11.578255732939478,
+            "creation_time": 1748119367.4072073,
+            "auxillary_file_paths": [
+                "results/SphereHunt-envs_10-batch_1024-buffer_327680-epochs_6-horizon_256-layers_2-units_128/SphereHunt/SphereHunt-20000019.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.5.1+cu124"
+    }
+}
