@@ -36,7 +36,7 @@ In **MoveToGoal**, the agent is tasked with reaching a reward point in the short
 
 The following assets are used in this project.
 
-- [AurynSkyGames Gems Ultimate Pack](GeneralPrefabs/SharedAssets/AurynSky) — Available for free use via the Unity Asset Store.
+- [Simple Gems and Items Ultimate Animated Customizable Pack](https://assetstore.unity.com/packages/3d/props/simple-gems-and-items-ultimate-animated-customizable-pack-73764#publisher) — Available for free use via the Unity Asset Store (NOT included in this repo).
 
 <!-- Add more assets here in the future -->
 
