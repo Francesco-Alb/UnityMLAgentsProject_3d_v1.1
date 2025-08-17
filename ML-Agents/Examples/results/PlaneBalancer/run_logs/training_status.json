@@ -1,0 +1,65 @@
+{
+    "PlaneBalancerAgent": {
+        "checkpoints": [
+            {
+                "steps": 8499889,
+                "file_path": "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-8499889.onnx",
+                "reward": 803.0260454944729,
+                "creation_time": 1755255512.725564,
+                "auxillary_file_paths": [
+                    "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-8499889.pt"
+                ]
+            },
+            {
+                "steps": 8799761,
+                "file_path": "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-8799761.onnx",
+                "reward": 807.6308888958921,
+                "creation_time": 1755257171.682337,
+                "auxillary_file_paths": [
+                    "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-8799761.pt"
+                ]
+            },
+            {
+                "steps": 8999975,
+                "file_path": "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-8999975.onnx",
+                "reward": 880.5999796407206,
+                "creation_time": 1755331531.9530048,
+                "auxillary_file_paths": [
+                    "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-8999975.pt"
+                ]
+            },
+            {
+                "steps": 9499883,
+                "file_path": "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-9499883.onnx",
+                "reward": 887.0552306094412,
+                "creation_time": 1755334405.4656625,
+                "auxillary_file_paths": [
+                    "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-9499883.pt"
+                ]
+            },
+            {
+                "steps": 9541633,
+                "file_path": "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-9541633.onnx",
+                "reward": 887.2759697492733,
+                "creation_time": 1755334609.241881,
+                "auxillary_file_paths": [
+                    "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-9541633.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 9541633,
+            "file_path": "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent.onnx",
+            "reward": 887.2759697492733,
+            "creation_time": 1755334609.241881,
+            "auxillary_file_paths": [
+                "results/PlaneBalancer-envs_20-batch_256-buffer_163840-epochs_6-horizon_128-layers_2-units_128/PlaneBalancerAgent/PlaneBalancerAgent-9541633.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.5.1+cu124"
+    }
+}
